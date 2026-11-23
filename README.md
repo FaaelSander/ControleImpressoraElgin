@@ -1,80 +1,63 @@
-# 🖨️ Integração Java com Impressora Elgin i9
-### *(Coloque aqui o nome do seu projeto)*
----
+# ControleImpressoraElgin
 
-## 📘 Sobre o Projeto
+📘 Sobre o Projeto
+Este projeto foi desenvolvido por alunos com o objetivo de criar uma aplicação Java capaz de se comunicar com a impressora Elgin i9, utilizando comandos ESC/POS, testes de impressão e interação via porta de comunicação.
+O trabalho faz parte da disciplina de Programação Orientada a Objetos.
 
-Este projeto foi desenvolvido por alunos com o objetivo de criar uma aplicação Java capaz de se comunicar com a impressora **Elgin i9**, utilizando comandos **ESC/POS**, testes de impressão e interação via porta de comunicação.  
-O trabalho faz parte da disciplina de **Programação Orientada a Objetos**.
+🧰 Tecnologias Utilizadas
+- Java 17
+- IntelliJ IDEA
+- Biblioteca ESC/POS (JNA)
+- Driver/SDK da Elgin i9 (`E1_Impressora01.dll`)
+- Maven ou Gradle
 
---
+📁 Estrutura do Projeto
+- `/src` → Código-fonte principal (`Main.java`)
+- `/lib` → Bibliotecas e dependências externas (`jna-5.15.0.jar`)
+- `/docs` → Materiais adicionais e documentação
+- `/examples` → Testes e arquivos de demonstração (XMLs do SAT)
 
-## 🧰 Tecnologias Utilizadas
+⚙️ Instalação e Execução
 
-- **Java 17**
-- **IntelliJ IDEA**
-- **Biblioteca ESC/POS**
-- **Driver/SDK da Elgin i9**
-- *(Opcional)* Maven ou Gradle
-
----
-
-## 📁 Estrutura do Projeto
-
-/src → Código-fonte principal
-/lib → Bibliotecas e dependências externas
-/docs → Materiais adicionais e documentação
-/examples → Testes e arquivos de demonstração
-
-
----
-
-## ⚙️ Instalação e Execução
-
-### 🔽 1. Baixar o Projeto do GitHub
-1. Acesse o repositório.
-2. Clique no botão **Code**.
+🔽 1. Baixar o Projeto do GitHub
+1. Acesse o repositório oficial do projeto.
+2. Clique no botão verde **Code**.
 3. Selecione **Download ZIP**.
-4. Aguarde o download.
+4. Aguarde a conclusão do download.
 
-### 📦 2. Extrair o Arquivo ZIP
-1. Vá até o local onde o arquivo foi salvo.
-2. Clique com o botão direito → **Extrair aqui** / **Extract All**.
-3. Será criada uma nova pasta com os arquivos.
+📦 2. Extrair o Arquivo ZIP
+1. Vá até o local onde o arquivo compactado foi salvo.
+2. Clique com o botão direito sobre o arquivo e escolha **Extrair aqui** / **Extract All**.
+3. Será criada uma nova pasta contendo todos os arquivos do projeto.
 
-### 🧭 3. Importar no IntelliJ IDEA
-1. Abra o **IntelliJ IDEA**.
+🧭 3. Importar no IntelliJ IDEA
+1. Abra o IntelliJ IDEA.
 2. Clique em **Open**.
-3. Escolha a pasta extraída.
-4. Aguarde o carregamento.
-5. Caso apareça, clique em **Import Project** (Maven/Gradle).
-6. Verifique o SDK em:
-   - *File → Project Structure → Project SDK → Java 17*
-7. Abra o arquivo `Main.java` e clique em ▶️ **Run**.
+3. Selecione a pasta extraída do projeto.
+4. Aguarde o carregamento do ambiente.
+5. Caso apareça o aviso, clique em **Import Project**.
+6. Verifique se o SDK está configurado corretamente em:
+   - `File` → `Project Structure` → `Project SDK` → `Java 17`.
+7. Certifique-se de que o *Working Directory* nas configurações de execução aponta para a raiz do projeto (onde está a DLL).
+8. Abra o arquivo `Main.java` e clique no botão ▶️ **Run**.
 
---
+🧪 Testes
+- Teste de conexão com a impressora (porta USB)
+- Impressão de texto simples e com múltiplas cópias
+- Envio de comandos ESC/POS, QR Code e Código de Barras
+- Impressão de cupons fiscais SAT (XML de venda e cancelamento)
+- Comandos de hardware (Abertura de gaveta, sinal sonoro e corte de papel)
 
-## 🧪 Testes
+📚 Documentação Adicional
+- Manual da Impressora Térmica Elgin i9
+- Documentação oficial do SDK Elgin
+- Referência de comandos ESC/POS
 
-- Teste de conexão com a impressora
-- Impressão de texto simples
-- Envio de comandos **ESC/POS**
-- Verificação das portas de comunicação
-- Teste com várias mensagens
-
----
-
-## 📚 Documentação Adicional
-
-- Manual da Impressora **Elgin i9**
-- Documentação do **SDK Elgin**
-- Referência **ESC/POS**
-
----
-
-## 👥 Autores  
+👥 Autoress
 *(em ordem alfabética)*
-
-- Ana Beatriz Souza
-- Carlos Henrique Pereira
-- Marcos Vinicius Almeida
+- Daniel Alcantara - 251451
+- Guilherme dos Santos Silva - 247787
+- João Gabriel Mathias - 250744
+- Rafael Sander de Azevedo - 248230
+- Samuel Carlos Duarte - 007090
+-
