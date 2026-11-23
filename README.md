@@ -52,7 +52,7 @@ O trabalho faz parte da disciplina de **Programação Orientada a Objetos**.
    - *File → Project Structure → Project SDK → Java 17*
 7. Abra o arquivo `Main.java` e clique em ▶️ **Run**.
 
----
+--
 
 ## 🧪 Testes
 
