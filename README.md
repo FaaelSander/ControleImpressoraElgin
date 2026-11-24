@@ -5,7 +5,7 @@ Este projeto foi desenvolvido por alunos com o objetivo de criar uma aplicação
 O trabalho faz parte da disciplina de Programação Orientada a Objetos.
 
 🧰 Tecnologias Utilizadas
-- Java 17
+- Java 27
 - IntelliJ IDEA
 - Biblioteca ESC/POS (JNA)
 - Driver/SDK da Elgin i9 (`E1_Impressora01.dll`)
@@ -53,11 +53,9 @@ O trabalho faz parte da disciplina de Programação Orientada a Objetos.
 - Documentação oficial do SDK Elgin
 - Referência de comandos ESC/POS
 
-👥 Autoress
-*(em ordem alfabética)*
+👥 Autores
 - Daniel Alcantara - 251451
 - Guilherme dos Santos Silva - 247787
 - João Gabriel Mathias - 250744
 - Rafael Sander de Azevedo - 248230
 - Samuel Carlos Duarte - 007090
--
